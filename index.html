@@ -19,8 +19,6 @@
                 <input required type="text" id="firstname" name="first_name">
                 <p>invalid input</p>
             </div>
-            
-            
             <div class="form-element">
                 <label for="firstname">LAST NAME *</label>
                 <input required type="text" id="lastname" name="last_name">
@@ -38,16 +36,20 @@
             </div>
             <div class="form-element">
                 <label for="phone">PASSWORD *</label>
-                <input required type="password" id="pass" name="user_pass" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" placeholder="e.g. Tetris22">
+                <img src="images/visibility.png" class="visible">
+                <input required maxlength="20" type="password" id="pass" name="user_pass" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" placeholder="e.g. Tetris22">
                 <p>invalid input</p>
             </div>
             <div class="form-element">
                 <label for="phone">CONFIRM PASSWORD *</label>
-                <input required type="password" id="pass_conf" name="user_pass_conf" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
+                <img src="images/visibility.png" class="visible">
+                <input required maxlength="20" type="password" id="pass_conf" name="user_pass_conf" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
                 <p>invalid input</p>
             </div>
             <button type="submit" class="create-button">Create Account</button>
         </form>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
