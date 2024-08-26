@@ -161,7 +161,7 @@ input:user-invalid + p{
     box-shadow: -1px 13px 24px -20px rgba(0,0,0,0.75);
 }
 
-.visible{
+.form-element img{
     position: absolute;
     bottom: 41px;
     right: 12px;
@@ -213,7 +213,7 @@ input:user-invalid + p{
         margin-right: 250px;
     }
 
-    .visible{
+    .form-element img{
         position: absolute;
         bottom: 47px;
         right: 100px;
